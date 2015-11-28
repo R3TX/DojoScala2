@@ -1,0 +1,675 @@
+New log file opened at Thu Oct 15 18:56:31 COT 2015 by 9820@SalazarZ-PC
+jvm 9820@SalazarZ-PC
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\project
+[Loading] Found non-root projects 
+[Loading] Done in J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\project, returning: (dojoscala-build)
+Loading project definition from J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@3c5e584d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.sbt.PlayScala), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayScala,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
+sorting: ns: List(sbt.plugins.CorePlugin, play.sbt.PlayScala, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.SbtNativePackager)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager) not found List(play.sbt.PlayScala, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.digest.SbtDigest)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask) not found List(play.sbt.PlayScala, play.sbt.Play, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala, returning: (root)
+Set current project to DojoScala (in build file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/)
+Reapplying settings...
+Set current project to DojoScala (in build file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64f065cc, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 2 s, completed 15/10/2015 06:56:47 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e351bc0, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 1 s, completed 15/10/2015 06:56:47 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@227a1122, check cycles: false
+Total time: 0 s, completed 15/10/2015 06:56:47 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d4b5642, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 06:56:48 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@dff38a4, check cycles: false
+Total time: 0 s, completed 15/10/2015 06:56:48 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@252ea9a2, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:01:30 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@425e2ce8, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:08:16 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3c2ed1ce, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:08:18 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@34dd8a54, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:08:57 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6220c0c0, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:10:51 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@78c0dcbe, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:11:12 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6c1329f1, check cycles: false
+Read from stdout: J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+J:\UdeA\Desarrollo de Aplicaciones Empresariales\Scala\activator-dist-1.3.6\DojoScala\app\views\main.scala.html:2: Invalid '@' symbol
+Read from stdout: @<!DOCTYPE html>
+@<!DOCTYPE html>
+Read from stdout: ^
+^
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (compile:twirlCompileTemplates) Twirl compilation failed
+(compile:twirlCompileTemplates) Twirl compilation failed
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:11:52 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f6c9cd, check cycles: false
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 1 s, completed 15/10/2015 07:17:51 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ac11d88, check cycles: false
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:24:54 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@57031810, check cycles: false
+Read from stdout: Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+Read from stdout: org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+Read from stdout: org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Modules were resolved with conflicting cross-version suffixes in {file:/J:/UdeA/Desarrollo%20de%20Aplicaciones%20Empresariales/Scala/activator-dist-1.3.6/DojoScala/}root:
+   org.scala-lang.modules:scala-xml _2.11, _2.12.0-M3
+   org.scala-lang.modules:scala-parser-combinators _2.11, _2.12.0-M3
+Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:46)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:32)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1164)
+	at sbt.Classpaths$$anonfun$66.apply(Defaults.scala:1161)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Read from stdout: (*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+(*:update) Conflicting cross-version suffixes in: org.scala-lang.modules:scala-xml, org.scala-lang.modules:scala-parser-combinators
+Total time: 0 s, completed 15/10/2015 07:45:47 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 9820@SalazarZ-PC logs at Thu Oct 15 20:11:35 COT 2015, goodbye.

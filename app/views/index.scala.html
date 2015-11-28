@@ -1,0 +1,11 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.Application.addPerson()" method="post">
+        Nombre: <input type="text" name="name">
+        Edad: <input type="text" name="age">
+        <button>Añadir</button>
+    </form>
+
+}
